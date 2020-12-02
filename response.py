@@ -13,4 +13,4 @@ for t in todos:
         message.insert(1, 'not')
         message = ' '.join(message)
 
-    print(f"Todo {id} {message}")
+    print(f'Todo {id} {message}')

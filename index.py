@@ -3,13 +3,13 @@ list1 = [1, 2, 3]
 list2 = [
     # dictionaries
     {
-        "message": "Hello world"
+        'message': 'Hello world'
     },
     {
-        "message": "Testing 123465"
+        'message': 'Testing 123465'
     },
     {
-        "message": "Hello sunshine"
+        'message': 'Hello sunshine'
     }
 ]
 
@@ -21,7 +21,7 @@ tuple1 = (
 
 # for in loop
 for index, list_item in enumerate(list2):
-    list_item["message"] = list_item["message"] + " " + (str(index * index + 10))
+    list_item['message'] = list_item['message'] + '' + (str(index * index + 10))
 
 # functions
 def print_list(mylist):
@@ -40,6 +40,6 @@ class Person():
         self.name = name
         self.age = age
 
-p1 = Person("Hank", 22)
+p1 = Person('Hank', 22)
 
-print(f"{p1.name} is a cool name")
+print(f'{p1.name} is a cool name')
